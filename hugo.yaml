@@ -1,0 +1,35 @@
+baseURL: http://zolli.hu/
+languageCode: en-us
+title: Zoli`s tech stash
+theme: "PaperMod"
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+params:
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: Something later on...
+  socialIcons:
+    - name: "cv"
+      url: "/posts/about"
+    - name: "github"
+      url: "https://github.com/zolli"
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
